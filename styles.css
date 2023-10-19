@@ -1,0 +1,93 @@
+    body {
+      font-family: Verdana, Tahoma, sans-serif, Arial, sans-serif;
+      background-color: #C8E4B2;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .header {
+      background-color: #9ED2BE; 
+      padding: 10px;
+      color: #005599;
+      text-align: center;
+    }
+
+     #myInput {
+      width: 70%;
+      padding: 10px;
+      border: none;
+      margin: 10px;
+    }
+    #myDIV {
+      width: 20%;
+      height: 70vh;
+      padding: 10px;
+      border: none;
+      margin: 10px;
+    }
+
+
+    .addBtn button {
+      background-color: #0077B6; 
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+    }
+
+    .addBtn button:hover {
+      background-color: #005599; 
+    }
+
+    .ul {
+      list-style: none;
+      padding: 0;
+      
+    }
+
+    li {
+      display: flex;
+      align-items: center;
+      padding: 10px;
+      background-color: white;
+      margin: 5px 0;
+      box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+    }
+
+    .checkbox {
+      width: 20px;
+      height: 20px;
+      margin-right: 10px;
+      border: 2px solid #0077B6;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .check-mark {
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+    .task-done {
+      background-color: #EFEFEF;
+    }
+
+    .delete-button {
+      background-color: #0077B6; 
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+    }
+
+    .delete-button:hover {
+      background-color: #005599; 
+    }
+ 
